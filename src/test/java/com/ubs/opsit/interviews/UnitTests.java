@@ -33,11 +33,4 @@ public class UnitTests {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void example4Tests() throws Exception {
-        String actual = berlinClock.convertTime("24:00:00");
-        String expected = "Y RRRR RRRR OOOOOOOOOOO OOOO";
-        assertEquals(expected, actual);
-    }
-
 }
